@@ -1,8 +1,10 @@
 package: github.com/apuigsech/git-seekret
 import:
 - package: github.com/apuigsech/seekret
+  version: 3e7a141d7fb7142216328d037019a376b002eea2
   subpackages:
   - models
 - package: github.com/apuigsech/seekret-source-git
+  version: 7a67416c70d760854c209bc9bf137b3791dab445
 - package: github.com/libgit2/git2go
 - package: github.com/urfave/cli
