@@ -23,7 +23,7 @@ func HookPreCommitRun(args []string) error {
 		return err
 	}
 	if secrets != 0 {
-		return cli.NewExitError("commit cannot proceed", 42)
+		return cli.NewExitError("commit cannot proceed", 1)
 	}
 
 	return nil
